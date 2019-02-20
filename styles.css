@@ -1,0 +1,31 @@
+body {
+    background-color: #ff9900;
+}
+
+.header {
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+.header-title {
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 32px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 23px;
+
+    color: #ffe600;
+}
+
+.header-subtitle {
+    font-family: Lucida Sans Typewriter, Lucida Typewriter;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 23px;
+
+    color: #ffe600;
+}
