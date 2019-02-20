@@ -22,10 +22,11 @@ body {
 .header-subtitle {
     font-family: Lucida Sans Typewriter, Lucida Typewriter;
     font-size: 16px;
-    font-style: normal;
+    font-style: italic;
     font-variant: normal;
     font-weight: 300;
     line-height: 23px;
 
     color: #ffe600;
+    text-decoration: underline;
 }
