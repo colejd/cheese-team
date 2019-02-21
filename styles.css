@@ -9,12 +9,13 @@ body {
 }
 
 .header-title {
-    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-    font-size: 32px;
-    font-style: normal;
+    font-family: Lucida Sans Typewriter, Lucida Typewriter;
+    font-size: 52px;
+    font-style: italic;
     font-variant: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 23px;
+    margin-bottom: 0;
 
     color: #ffe600;
 }
