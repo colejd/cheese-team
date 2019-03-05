@@ -1,33 +1,55 @@
 body {
     background-color: #ff9900;
+    font-family: Lucida Sans Typewriter, Lucida Typewriter;
+    color: #ffe600;
 }
 
 .header {
     margin-top: 2em;
     width: 100%;
     text-align: center;
+    margin-bottom: 3em;
+}
+
+.links {
+    width: 100%;
+    text-align: center;
 }
 
 .header-title {
-    font-family: Lucida Sans Typewriter, Lucida Typewriter;
     font-size: 52px;
     font-style: italic;
     font-variant: normal;
     font-weight: 500;
     line-height: 23px;
     margin-bottom: 0;
-
-    color: #ffe600;
 }
 
 .header-subtitle {
-    font-family: Lucida Sans Typewriter, Lucida Typewriter;
     font-size: 16px;
     font-style: italic;
     font-variant: normal;
     font-weight: 300;
     line-height: 23px;
+}
 
+a {
     color: #ffe600;
+    font-style: italic;
     text-decoration: underline;
+}
+
+.game-listing {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-listing img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 50vw;
+    max-width: 256px;
+    margin-top: 1em;
 }
