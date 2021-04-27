@@ -14,6 +14,10 @@ body {
 .links {
     width: 100%;
     text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .header-title {
@@ -52,4 +56,8 @@ a {
     width: 50vw;
     max-width: 256px;
     margin-top: 1em;
+}
+
+.game-listing + .game-listing {
+    margin-left: 2rem;
 }
